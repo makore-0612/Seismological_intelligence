@@ -1,0 +1,25 @@
+[theme]
+# Color principal para botones, sliders, tabs y líneas de selección
+primaryColor = "#FF4B4B"
+
+# Color de fondo de la zona principal (las páginas)
+backgroundColor = "#1c010b"
+
+# Color de fondo de los contenedores secundarios (como tus KPI cards y la sidebar)
+secondaryBackgroundColor = "#2c0212"
+
+# Color del texto principal
+textColor = "#FAFAFA"
+
+# Fuente tipográfica global de la app: "sans serif", "serif" o "monospace"
+font = "monospace"
+
+[server]
+headless = true
+
+[ui]
+disableSidebarNav = false
+
+[development]
+# Quita los menús de arriba a la derecha para producción
+gatherUsageStats = false
