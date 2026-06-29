@@ -69,14 +69,14 @@ El modelo de 24h usa la predicción de Omori como feature adicional, lo que perm
 
 ```bash
 # Clonar el repositorio
-git clone <url-del-repo>
+git clone https://github.com/makore-0612/Seismological_intelligence.git
 cd Seismological_intelligence
 
 # Instalar dependencias
 pip install -r requirements.txt
 
 # Lanzar el dashboard
-streamlit run app.py
+streamlit run Inicio.py
 ```
 
 Requiere **Python 3.12+**.
