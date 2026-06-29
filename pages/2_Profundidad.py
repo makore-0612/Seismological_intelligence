@@ -23,7 +23,7 @@ st.title("Análisis de Profundidad")
 st.markdown(""" Para tener mayor distinción entre los eventos, los dividimos en tres categorías:\\
     \t 1. Superficial: Para profundidades menores a 70 km. \\
     \t 2. Intermedio: Profundidades menores a 300 km \\
-    \t 3. Profundo: Mayores a 300 km \\
+    \t 3. Profundo: Mayores a 300 km 
             """)
 
 catalog = load_catalog()

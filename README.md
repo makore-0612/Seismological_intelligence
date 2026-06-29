@@ -6,7 +6,7 @@ Panel interactivo de análisis sísmico e inteligencia artificial para el territ
 
 ## Demo
 
-> Disponible en Streamlit Community Cloud — *(enlace próximamente)*
+> Disponible en [*Streamlit Community Cloud*](https://seismologicalintelligence.streamlit.app/)
 
 ---
 
