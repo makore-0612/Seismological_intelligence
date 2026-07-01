@@ -5,9 +5,11 @@ from utils.footer import render_footer
 
 BASE_DIR = Path(__file__).resolve().parent
 
-RUTA_IMAGEN = BASE_DIR / "assets" / "logo.png"
+icono = Image.open(BASE_DIR / "assets" / "logo.png")
 
-icono = Image.open(RUTA_IMAGEN)
+geo = BASE_DIR / "assets" / "geofisica.png"
+
+unam = BASE_DIR / "assets" / "unam.png"
 
 st.set_page_config(
     page_title="Inteligencia Sismológica MX",
@@ -30,7 +32,7 @@ st.markdown(
 col1, col2 = st.columns([0.1, 0.9])
 
 with col1:
-    st.image(str(RUTA_IMAGEN), width=80) # Convertimos a str por compatibilidad con st.image
+    st.image(str(BASE_DIR / "assets" / "logo.png"), width=80) # Convertimos a str por compatibilidad con st.image
 with col2:
     st.title("Inteligencia Sismológica – México")
 
@@ -64,5 +66,12 @@ st.divider()
 st.markdown("""
 >**Fuente de datos:** [Servicio Sismológico Nacional — UNAM](http://www.ssn.unam.mx/)
 """)
+
+col1, col2, = st.columns(border = True)
+
+with col1:
+    st.image(str(geo), width=80) 
+with col2:
+    st.image(str(unam), width=80) 
 
 render_footer()
