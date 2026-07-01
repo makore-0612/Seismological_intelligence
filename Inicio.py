@@ -67,11 +67,7 @@ st.markdown("""
 >**Fuente de datos:** [Servicio Sismológico Nacional — UNAM](http://www.ssn.unam.mx/)
 """)
 
-col1, col2, = st.columns(2)
-
-with col1:
-    st.image(str(geo), width=80) 
-with col2:
-    st.image(str(unam), width=80) 
+with st.container(horizontal_alignment='center'):
+    st.image(str(geo), width = 120) 
 
 render_footer()

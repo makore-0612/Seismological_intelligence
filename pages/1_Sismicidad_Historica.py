@@ -7,6 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent
 RUTA_IMAGEN = BASE_DIR / "assets" / "logo.png"
 
 icono = Image.open(RUTA_IMAGEN)
+
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 import streamlit as st
@@ -19,6 +20,7 @@ from streamlit_folium import st_folium
 
 from utils.loaders import load_catalog
 from utils.footer import render_footer
+
 
 st.set_page_config(page_title="Sismicidad Histórica", page_icon=icono, layout="wide")
 st.title("Sismicidad Histórica")

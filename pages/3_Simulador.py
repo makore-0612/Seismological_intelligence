@@ -22,6 +22,7 @@ from utils.loaders import (
 )
 from utils.footer import render_footer
 
+
 st.set_page_config(page_title="Simulador de Réplicas", page_icon=icono, layout="wide")
 st.title("Simulador de Réplicas")
 st.markdown(r"""

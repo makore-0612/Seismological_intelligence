@@ -18,6 +18,7 @@ import plotly.express as px
 from utils.loaders import load_catalog, load_agg_hora
 from utils.footer import render_footer
 
+
 st.set_page_config(page_title="Análisis de Profundidad", page_icon=icono, layout="wide")
 st.title("Análisis de Profundidad")
 st.markdown(""" Para tener mayor distinción entre los eventos, los dividimos en tres categorías:\\
